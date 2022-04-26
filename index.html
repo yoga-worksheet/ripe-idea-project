@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ripe Idea Project</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/fav.ico">
+</head>
+<body>
+
+	<nav>
+		<div class="nav__wrapper">
+			<img src="img/logo.png" alt="Nav Logo" class="nav__logo">
+			<div class="nav__items">
+				<ul>
+					<li class="nav__link"><a href="#">Information Page</a></li>
+					<li class="nav__link"><a href="#">Shop Page</a></li>
+					<li class="nav__link"><a href="#">Blog</a></li>
+				</ul>
+			</div>
+			<button class="hamburger-menu">
+				<ion-icon name="menu-outline" class="on"></ion-icon>
+				<ion-icon name="close-outline" class="off"></ion-icon>
+			</button>
+		</div>
+	</nav>
+
+	<header id="header">
+		<div class="header__wrapper">
+			<div class="title">
+				<h1>Serve With Love...</h1>
+				<p>With most favourite african dessert to accompany your dinner. Made by high quality ingredients to produce high quality dessert. Melt in your mouth also warm your heart</p>
+			</div>
+			<div class="hero-image">
+				<img src="img/hero.png" alt="Dessert" >
+			</div>
+		</div>
+		<div class="header__social">
+			<a href="#" class="social-item"><ion-icon name="logo-facebook"></ion-icon></a>
+			<a href="#" class="social-item"><ion-icon name="logo-twitter"></ion-icon></a>
+			<a href="#" class="social-item"><ion-icon name="logo-instagram"></ion-icon></a>
+		</div>
+	</header>
+
+	<main id="main">
+		<section id="products">
+			<h1 class="text-center">Pick Our Favourite Dish</h1>
+			<div class="carousel__wrapper">
+				<div class="products__wrapper" id="product-1">
+					<div class="product-image">
+						<img src="img/pudding-1.png" alt="">
+					</div>
+					<div class="description">
+						<h3>Malva Pudding</h3>
+						<p>
+							Malva pudding is a sweet pudding of South African origin. It contains apricot jam and has a spongy caramelised texture. A cream sauce is often poured over it while it is hot, and it is served hot with custard and/or ice-cream.
+						</p>
+						<a href="#" class="button filled">Order Now <ion-icon name="arrow-forward-outline"></ion-icon></a>
+					</div>
+				</div>
+				<div class="products__wrapper selected" id="product-2">
+					<div class="product-image">
+						<img src="img/pudding-2.png" alt="">
+					</div>
+					<div class="description">
+						<h3>Red Pudding</h3>
+						<p>
+							Red pudding is a sweet pudding of South African origin. It contains apricot jam and has a spongy caramelised texture. A cream sauce is often poured over it while it is hot, and it is served hot with custard and/or ice-cream.
+						</p>
+						<a href="#" class="button filled">Order Now <ion-icon name="arrow-forward-outline"></ion-icon></a>
+					</div>
+				</div>
+				<div class="products__wrapper" id="product-3">
+					<div class="product-image">
+						<img src="img/pudding-3.png" alt="">
+					</div>
+					<div class="description">
+						<h3>Yellow Pudding</h3>
+						<p>
+							Yellow pudding is a sweet pudding of South African origin. It contains apricot jam and has a spongy caramelised texture. A cream sauce is often poured over it while it is hot, and it is served hot with custard and/or ice-cream.
+						</p>
+						<a href="#" class="button filled">Order Now <ion-icon name="arrow-forward-outline"></ion-icon></a>
+					</div>
+				</div>
+			</div>
+			<div class="navigator">
+				<span class="navigator__item"></span>
+				<span class="navigator__item selected"></span>
+				<span class="navigator__item"></span>
+			</div>
+		</section>
+
+		<section id="service">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<div class="service__wrapper">
+				<div class="service-item">
+					<ion-icon name="flash-outline"></ion-icon>
+					<h4 class="text-center">Fast Delivery</h4>
+					<p>No need to worry run out of time for your dinner. We will deliver your dessert and you can enjoy fresh dessert.</p>
+				</div>
+				<div class="service-item">
+					<ion-icon name="sparkles-outline"></ion-icon>
+					<h4 class="text-center">High Quality Ingredients</h4>
+					<p>Made by high quality ingredients to make luxurious delicious dessert to increase your mood. It feels melt on your mouth till your heart.</p>
+				</div>
+				<div class="service-item">
+					<ion-icon name="happy-outline"></ion-icon>
+					<h4 class="text-center">Professional Cook</h4>
+					<p>Professional cook hired to make such an incredible dessert art to enlight your dinner.</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="contact__wrapper">
+				<form action="#" class="contact__form">
+					<label class="input-field">
+						<input type="email" required>
+						<span class="placeholder">Email Here ...</span>
+						<span class="border"></span>
+					</label>
+					<label class="input-field">
+						<input type="text" required>
+						<span class="placeholder">Subject Here ...</span>
+						<span class="border"></span>
+					</label>
+					<label class="input-field">
+						<textarea name="message" id="message-form" rows="10" required></textarea>
+						<span class="placeholder">Message Here ...</span>
+						<span class="border"></span>
+					</label>
+					<button type="submit" class="button filled">Send <ion-icon name="paper-plane-outline"></ion-icon></button>
+				</form>
+				<div class="contact__social">
+					<h3>Reach out about us here</h3>
+					<div class="social__wrapper">
+						<a href="#" class="social-contact"><ion-icon name="logo-facebook"></ion-icon><span>Facebook</span></a>
+						<a href="#" class="social-contact"><ion-icon name="logo-instagram"></ion-icon><span>Instagram</span></a>
+						<a href="#" class="social-contact"><ion-icon name="logo-twitter"></ion-icon><span>Twitter</span></a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer__wrapper">
+			<div class="footer__page">
+				<h5>Our Page</h5>
+				<ul>
+					<li><a href="#">Information Page</a></li>
+					<li><a href="#">Shop Page</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+			</div>
+			<div class="footer__social">
+				<h5>Social</h5>
+				<div class="footer__social__wrapper">
+					<a href="#" class="social-item"><ion-icon name="logo-facebook"></ion-icon></a>
+					<a href="#" class="social-item"><ion-icon name="logo-twitter"></ion-icon></a>
+					<a href="#" class="social-item"><ion-icon name="logo-instagram"></ion-icon></a>
+				</div>
+			</div>
+			<div class="footer__profile">
+				<img src="img/logo.png" alt="" class="footer__logo">
+				<p>
+					1080 Roguski Road, Arcadia, Louisiana <br>Zipcode : 71001 <br> Telephone : 318-263-4737
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
